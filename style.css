@@ -1,5 +1,5 @@
 body {
-    background-color: #74ABF3;
+    background-color: royalblue;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif, 'Times New Roman', Times, serif;
     font-size: 1.25rem;
@@ -8,10 +8,10 @@ body {
 }
 
 .topnav {
-    padding: 0 35%;
+    padding: 0 30%;
 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
     font-size: 1.5rem;
     text-align: center;
@@ -73,12 +73,16 @@ body {
 }
 
 /* Reviews Styling */
+#reviews {
+    margin: 0 2.5rem;
+}
+
 .customer-container {
     margin-bottom: 1rem;
     padding: 1rem;
 
     background-color: #a8caf5;
-    box-shadow: 10px 10px 10px #4a91ed;
+    box-shadow: 5px 5px 10px #4a91ed;
     
     border-radius: .5rem;
 
@@ -91,6 +95,8 @@ body {
 
 .rating-container {
     margin-bottom: 1.5rem;
+    /* -webkit-text-stroke: .5px black; */
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75);
 }
 
 .customer-container p {
