@@ -65,7 +65,7 @@ body {
 }
 
 #mon-fri-hours {
-    margin: .5rem 0 0 0;
+    margin: .5rem 0 0 0 !important;
 }
 
 #logo {
