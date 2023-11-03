@@ -1,10 +1,10 @@
 body {
-    background-color: whitesmoke;
+    background-color: #74ABF3;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif, 'Times New Roman', Times, serif;
     font-size: 1.25rem;
     font-weight: normal;
-    color: black;
+    color: white;
 }
 
 .topnav {
@@ -45,8 +45,9 @@ body {
     text-align: center;
     font-size: 2.5rem;
     font-weight: bolder;
-}
 
+    text-shadow: 5px 5px 10px #4a91ed;
+}
 
 /* Home Styling */
 #walkthrough-video {
@@ -76,19 +77,28 @@ body {
     margin-bottom: 1rem;
     padding: 1rem;
 
-    border: .25rem solid darkblue;
+    background-color: #a8caf5;
+    box-shadow: 10px 10px 10px #4a91ed;
+    
     border-radius: .5rem;
+
+    text-align: center;
 }
 
 .customer-container h2 {
     display: inline;
 }
 
-.customer-container span {
-    text-align: right;
+.rating-container {
+    margin-bottom: 1.5rem;
 }
 
 .customer-container p {
     display: block;
-    margin-bottom: 0;
+    margin: .5rem 0 0 0;
+}
+
+.customer-name {
+    font-style: italic;
+    font-size: 1rem;
 }
