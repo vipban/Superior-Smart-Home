@@ -1,25 +1,23 @@
-body
-{
+body {
+    background-color: whitesmoke;
+
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: normal;
     color: black;
-    background-color: #E1F5FF;
 }
 
-.topnav
-{
-    font-size: 18px;
-    text-align: center;
-
-    padding: 0 37.5%;
+.topnav {
+    padding: 0 35%;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+
+    font-size: 1.5rem;
+    text-align: center;
 }
 
-.topnav a
-{
+.topnav a {
     padding: 0.5rem 1rem;
 
     background-color: darkblue;
@@ -29,27 +27,54 @@ body
     text-decoration: none;
 }
 
-h1
-{
-    text-align: center;
-    font-size: 50px;
-    font-weight: bolder;
-}
-
-p
-{
-    font-size: 16px;
-}
-
-/* Center Table */
-table
-{
+.center {
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-th
-{
+.centered-text {
+    text-align: center;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+
+/* Home Styling */
+#walkthrough-video {
+    width: 50%;
+}
+
+/* Contact Us Styling */
+h4 {
+    margin: 0;
+    text-decoration: underline;
+}
+
+p {
+    margin: .5rem 0 2rem 0;
+}
+
+#mon-fri-hours {
+    margin: .5rem 0 0 0;
+}
+
+#logo {
+    margin-top: 2.75rem;
+}
+
+/* Center Table */
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
     text-align: center;
     font-weight: bold;
     font-size: 24px;
@@ -57,8 +82,7 @@ th
 }
 
 /* Table Borders */
-table, th, td
-{
+table, th, td {
     border: 2px solid black;
     border-collapse: collapse;
 }
