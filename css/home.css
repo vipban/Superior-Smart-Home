@@ -22,6 +22,8 @@
 
     background-color: lightslategray;
     border-radius: 1rem;
+
+    font-size: 1.5rem;
 }
 
 .service-container {
@@ -32,73 +34,4 @@
 .service-container p {
     margin: 0;
     padding: 0;
-}
-
-.service {
-    height: 40rem;
-
-    background-size: 100% 100%;
-
-    border: .5rem solid goldenrod;
-    border-bottom: none;
-}
-
-#voice-assistants {
-    border-bottom: .5rem solid goldenrod;
-}
-
-.service-text-odd {
-    position: relative;
-    top: 15%;
-    left: 72.5%;
-    
-    width: 22.5%;
-    height: 70%;
-
-    background-color: #17309def;
-    border-radius: .5rem;
-
-    text-align: center;
-}
-
-.service-text-even {
-    position: relative;
-    top: 15%;
-    left: 5%;
-    
-    width: 22.5%;
-    height: 70%;
-
-    background-color: #17309def;
-    border-radius: .5rem;
-
-    text-align: center;
-}
-
-.service h3 {
-    padding-top: 7.5%;
-}
-
-#speakers {
-    background-image: url("../Resources/placeholder.jpg");
-}
-
-#doorbells {
-    background-image: url("../Resources/placeholder.jpg");
-}
-
-#locks {
-    background-image: url("../Resources/placeholder.jpg");
-}
-
-#garages {
-    background-image: url("../Resources/placeholder.jpg");
-}
-
-#security {
-    background-image: url("../Resources/placeholder.jpg");
-}
-
-#voice-assistants {
-    background-image: url("../Resources/placeholder.jpg");
 }
