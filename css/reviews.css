@@ -1,0 +1,31 @@
+/* Reviews Styling */
+#reviews {
+    margin: 0 2.5rem;
+}
+
+.customer-container {
+    margin-bottom: 1rem;
+    padding: 1rem;
+
+    background-color: #17309d;
+    box-shadow: 10px 10px 10px #2a409f;
+    
+    border-radius: .5rem;
+
+    text-align: center;
+}
+
+.customer-container h2 {
+    display: inline;
+}
+
+.rating-container {
+    margin-bottom: 1.5rem;
+    /* -webkit-text-stroke: .5px black; */
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75);
+}
+
+.customer-container p {
+    display: block;
+    margin: .5rem 0 0 0;
+}

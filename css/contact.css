@@ -1,0 +1,21 @@
+/* Contact Us Styling */
+#contact-us h4 {
+    margin: 0;
+    text-decoration: underline;
+}
+
+#contact-us p {
+    margin: .5rem 0 2rem 0;
+}
+
+#mon-fri-hours {
+    margin: .5rem 0 0 0 !important;
+}
+
+#logo {
+    margin-top: 2.75rem;
+}
+
+#contact-info {
+    text-align: center;
+}
