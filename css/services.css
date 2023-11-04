@@ -33,19 +33,14 @@
     background-size: 100% 100%;
 
     border: .5rem solid goldenrod;
-    border-bottom: none;
-}
-
-#voice-assistants {
-    border-bottom: .5rem solid goldenrod;
 }
 
 .service-text-odd {
     position: relative;
     top: 15%;
-    left: 72.5%;
+    left: 70%;
     
-    width: 22.5%;
+    width: 25%;
     height: 70%;
 
     background-color: #17309def;
@@ -59,7 +54,7 @@
     top: 15%;
     left: 5%;
     
-    width: 22.5%;
+    width: 25%;
     height: 70%;
 
     background-color: #17309def;
@@ -70,6 +65,18 @@
 
 .service h3 {
     padding-top: 7.5%;
+}
+
+.service h3::after {
+    display: block;
+    height: .5rem;
+
+    content: "⸻⸻";
+    color: goldenrod;
+}
+
+.service p {
+    padding: 0 5%;
 }
 
 #speakers {
