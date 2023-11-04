@@ -81,8 +81,8 @@ body {
     margin-bottom: 1rem;
     padding: 1rem;
 
-    background-color: #a8caf5;
-    box-shadow: 5px 5px 10px #4a91ed;
+    background-color: #17309d;
+    box-shadow: 10px 10px 10px #2a409f;
     
     border-radius: .5rem;
 
@@ -102,9 +102,4 @@ body {
 .customer-container p {
     display: block;
     margin: .5rem 0 0 0;
-}
-
-.customer-name {
-    font-style: italic;
-    font-size: 1rem;
 }
