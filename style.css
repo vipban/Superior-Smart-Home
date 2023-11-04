@@ -8,7 +8,7 @@ body {
 }
 
 .topnav {
-    padding: 0 30%;
+    padding: 0 25%;
 
     display: flex;
     justify-content: space-around;
@@ -27,18 +27,8 @@ body {
     text-decoration: none;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .centered-text {
     text-align: center;
-}
-
-.italics {
-    font-style: italic;
 }
 
 .page-title {
@@ -50,8 +40,115 @@ body {
 }
 
 /* Home Styling */
+#intro {
+    margin: 0 5%;
+}
+
 #walkthrough-video {
-    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: block;
+
+    width: 90%;
+}
+
+#services {
+    margin: 2rem 0;
+    padding: 2rem 1rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+    background-color: lightslategray;
+    border-radius: 1rem;
+}
+
+.service-container {
+    text-align: center;
+    cursor: pointer;
+}
+
+.service-container p {
+    margin: 0;
+    padding: 0;
+}
+
+.service {
+    height: 40rem;
+
+    background-size: 100% 100%;
+
+    border: .5rem solid goldenrod;
+    border-bottom: none;
+}
+
+#voice-assistants {
+    border-bottom: .5rem solid goldenrod;
+}
+
+.service-text-odd {
+    position: relative;
+    top: 15%;
+    left: 72.5%;
+    
+    width: 22.5%;
+    height: 70%;
+
+    background-color: #17309def;
+    border-radius: .5rem;
+
+    text-align: center;
+}
+
+.service-text-even {
+    position: relative;
+    top: 15%;
+    left: 5%;
+    
+    width: 22.5%;
+    height: 70%;
+
+    background-color: #17309def;
+    border-radius: .5rem;
+
+    text-align: center;
+}
+
+.service h3 {
+    padding-top: 7.5%;
+}
+
+#speakers {
+    background-image: url("./Resources/placeholder.jpg");
+}
+
+#doorbells {
+    background-image: url("./Resources/placeholder.jpg");
+}
+
+#locks {
+    background-image: url("./Resources/placeholder.jpg");
+}
+
+#garages {
+    background-image: url("./Resources/placeholder.jpg");
+}
+
+#security {
+    background-image: url("./Resources/placeholder.jpg");
+}
+
+#voice-assistants {
+    background-image: url("./Resources/placeholder.jpg");
+}
+
+/* About Styling */
+#about {
+    margin: 5%;
+
+    font-size: 1.5rem;
 }
 
 /* Contact Us Styling */

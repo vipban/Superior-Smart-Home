@@ -4,12 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://kit.fontawesome.com/47274269df.js" crossorigin="anonymous"></script>
   <title>Superior Smart Home</title>
 </head>
 <body>
   <nav class="topnav">
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
+    <a href="services.html">Services</a>
     <a href="reviews.html">Reviews</a>
     <a href="contact.html">Contact Us</a>
   </nav>
@@ -17,13 +19,80 @@
   <h1 class="page-title">Superior Smart Home</h1>
 
   <section id="intro">
-    <div class="center">
-      <video autoplay id="walkthrough-video">
-        <source src="./Resources/Homepage_Video.mp4" />
-        Unfortunately, your browser did not load the video.
-      </video>
+    <video autoplay id="walkthrough-video">
+      <source src="./Resources/Homepage_Video.mp4" />
+      Unfortunately, your browser did not load the video.
+    </video>
+
+    <section id="services">
+      <div class="service-container" onclick="location.href='#speakers';">
+        <i class="fa-solid fa-music"></i>
+        <p>Speakers</p>
+      </div>
+      
+      <div class="service-container" onclick="location.href='#doorbells';">
+        <i class="fa-solid fa-bell center"></i>
+        <p>Doorbells</p>
+      </div>
+
+      <div class="service-container" onclick="location.href='#locks';">
+        <i class="fa-solid fa-lock center"></i>
+        <p>Locks</p>
+      </div>
+
+      <div class="service-container" onclick="location.href='#garages';">
+        <i class="fa-solid fa-warehouse"></i>
+        <p>Garages</p>
+      </div>
+
+      <div class="service-container" onclick="location.href='#security';">
+        <i class="fa-solid fa-shield-halved"></i>
+        <p>Security</p>
+      </div>
+
+      <div class="service-container" onclick="location.href='#voice-assistants';">
+        <i class="fa-solid fa-microphone"></i>
+        <p>Voice Assistants</p>
+      </div>
+    </section>
+  </section>
+
+  <section id="service-details">
+    <div class="service" id="speakers">
+      <div class="service-text-odd">
+        <h3>Speakers</h3>
+      </div>
     </div>
 
+    <div class="service" id="doorbells">
+      <div class="service-text-even">
+        <h3>Doorbells</h3>
+      </div>
+    </div>
+
+    <div class="service" id="locks">
+      <div class="service-text-odd">
+        <h3>Locks</h3>
+      </div>
+    </div>
+
+    <div class="service" id="garages">
+      <div class="service-text-even">
+        <h3>Garages</h3>
+      </div>
+    </div>
+
+    <div class="service" id="security">
+      <div class="service-text-odd">
+        <h3>Security</h3>
+      </div>
+    </div>
+
+    <div class="service" id="voice-assistants">
+      <div class="service-text-even">
+        <h3>Voice Assistants</h3>
+      </div>
+    </div>
   </section>
 </body>
 </html>
