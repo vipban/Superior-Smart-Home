@@ -7,7 +7,6 @@ body {
     color: white;
 }
 .topnav {
-
     display: flex;
     justify-content: center;
 
@@ -46,6 +45,16 @@ body {
     #mobile-nav {
         display: none;
     }
+
+    .page-title {
+        position: relative;
+        top: 3.5rem;
+    }
+
+    .topnav {
+        position: relative;
+        bottom: 6rem;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -57,17 +66,8 @@ body {
         width: 50%;
     }
 
-    #mobile-nav-closed {
+    #mobile-nav {
         display: inline-block;
-        width: 10%;
-
-        position: relative;
-        bottom: 0.5rem;
-        left: 1rem;
-    }
-
-    #mobile-nav-open {
-        display: none;
         width: 10%;
 
         position: relative;

@@ -1,6 +1,8 @@
 /* About Styling */
 #about {
     margin: 5%;
+    position: relative;
+    bottom: 4rem;
 
     font-size: 1.5rem;
 }

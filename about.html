@@ -5,10 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- General Styling -->
     <link rel="stylesheet" type="text/css" href="css/about.css"> <!-- Page-Specific Styling -->
+    <script src="https://kit.fontawesome.com/47274269df.js" crossorigin="anonymous"></script>
     <title>Superior Smart Home - About</title>
 </head>
 <body>
-    <nav class="topnav">
+    <!-- Mobile Hamburger Menu -->
+    <i class="fa-solid fa-bars fa-2xl" id="mobile-nav" 
+        onclick= "document.getElementById('topnav').style.display === 'none' ? document.getElementById('topnav').style.display='flex' : document.getElementById('topnav').style.display='none';">
+    </i>
+
+    <!-- Page Title -->
+    <h1 class="page-title">About Superior Smart Home</h1>
+
+    <!-- Page Navigation -->
+    <nav class="topnav" id="topnav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="services.html">Services</a>
@@ -16,8 +26,7 @@
         <a href="contact.html">Contact Us</a>
     </nav>
 
-    <h1 class="page-title">About Superior Smart Home</h1>
-
+    <!-- Page Content -->
     <section id="about">
         <p>
             My name is Vipul Bansal. I am currently a junior 

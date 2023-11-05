@@ -5,10 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- General Styling -->
     <link rel="stylesheet" type="text/css" href="css/contact.css"> <!-- Page-Specific Styling -->
+    <script src="https://kit.fontawesome.com/47274269df.js" crossorigin="anonymous"></script>
     <title>Superior Smart Home - Contact Us</title>
 </head>
 <body>
-    <nav class="topnav">
+    <!-- Mobile Hamburger Menu -->
+    <i class="fa-solid fa-bars fa-2xl" id="mobile-nav" 
+        onclick= "document.getElementById('topnav').style.display === 'none' ? document.getElementById('topnav').style.display='flex' : document.getElementById('topnav').style.display='none';">
+    </i>
+
+    <!-- Page Title -->
+    <h1 class="page-title">Contact Us</h1>
+
+    <!-- Page Navigation -->
+    <nav class="topnav" id="topnav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="services.html">Services</a>
@@ -16,13 +26,12 @@
         <a href="contact.html">Contact Us</a>
     </nav>
 
+    <!-- Page Content -->
     <div class="center">
         <img src="./Resources/SSH_Logo.png" class="center" width="250" id="logo"/>
     </div>
 
     <section id="contact-us">
-        <h1 class="page-title">Contact Us</h1>
-
         <div id="contact-info">
             <h4>Address</h4>
             <p>561 Rivercliff Trce, Marietta, Georgia 30067</p>
