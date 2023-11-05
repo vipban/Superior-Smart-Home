@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-around;
     align-content: center;
+    flex-wrap: wrap;
 
     background-color: lightslategray;
     border-radius: 1rem;
@@ -16,6 +17,7 @@
 .service-container {
     text-align: center;
     cursor: pointer;
+    padding: .75rem 0;
 }
 
 .service-container p {
@@ -35,32 +37,19 @@
     border: .5rem solid goldenrod;
 }
 
-.service-text-odd {
-    position: relative;
-    top: 15%;
-    left: 70%;
-    
-    width: 25%;
-    height: 70%;
-
-    background-color: #17309def;
-    border-radius: .5rem;
-
-    text-align: center;
-}
-
-.service-text-even {
+.service-text {
     position: relative;
     top: 15%;
     left: 5%;
     
-    width: 25%;
+    width: 20rem;
     height: 70%;
 
     background-color: #17309def;
     border-radius: .5rem;
 
     text-align: center;
+    overflow: scroll;
 }
 
 .service h3 {
