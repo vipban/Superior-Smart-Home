@@ -4,11 +4,11 @@
     padding: 2rem 1rem;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-content: center;
     flex-wrap: wrap;
 
-    background-color: lightslategray;
+    background-color: slategray;
     border-radius: 1rem;
 
     font-size: 1.5rem;
@@ -17,7 +17,7 @@
 .service-container {
     text-align: center;
     cursor: pointer;
-    padding: .75rem 0;
+    padding: .75rem;
 }
 
 .service-container p {
@@ -37,19 +37,30 @@
     border: .5rem solid goldenrod;
 }
 
-.service-text {
+.service-text-odd {
     position: relative;
     top: 15%;
-    left: 5%;
-    
+    float: right;
+    right: 5%;
+
     width: 20rem;
     height: 70%;
 
     background-color: #17309def;
     border-radius: .5rem;
-
     text-align: center;
-    overflow: scroll;
+}
+.service-text-even {
+    position: relative;
+    top: 15%;
+    left: 5%;
+
+    width: 20rem;
+    height: 70%;
+
+    background-color: #17309def;
+    border-radius: .5rem;
+    text-align: center;
 }
 
 .service h3 {
@@ -68,6 +79,7 @@
     padding: 0 5%;
 }
 
+/* Background Images */
 #speakers {
     background-image: url("../Resources/placeholder.jpg");
 }
