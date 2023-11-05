@@ -26,7 +26,6 @@
 }
 
 /* Service Details */
-
 .service {
     margin: 2rem 5%;
 
@@ -53,6 +52,7 @@
 .service-text-even {
     position: relative;
     top: 15%;
+    float: left;
     left: 5%;
 
     width: 20rem;
