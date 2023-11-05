@@ -9,15 +9,18 @@
   <title>Superior Smart Home</title>
 </head>
 <body>
-  <nav class="topnav">
+  <i class="fa-solid fa-bars fa-2xl" id="mobile-nav-closed" 
+    onclick= "document.getElementById('topnav').style.display === 'none' ? document.getElementById('topnav').style.display='flex' : document.getElementById('topnav').style.display='none';">
+  </i>
+  <h1 class="page-title">Superior Smart Home</h1>
+
+  <nav class="topnav" id="topnav">
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="services.html">Services</a>
     <a href="reviews.html">Reviews</a>
     <a href="contact.html">Contact Us</a>
   </nav>
-
-  <h1 class="page-title">Superior Smart Home</h1>
 
   <section id="intro">
     <video autoplay id="walkthrough-video">

@@ -41,3 +41,42 @@ body {
 
     text-shadow: 5px 5px 10px #4a91ed;
 }
+
+@media only screen and (min-width: 768px) {
+    #mobile-nav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .topnav {
+        display: none;
+        
+        flex-direction: column; /* <-- for when display='flex' */
+        margin: -1rem auto 1rem auto;
+        width: 50%;
+    }
+
+    #mobile-nav-closed {
+        display: inline-block;
+        width: 10%;
+
+        position: relative;
+        bottom: 0.5rem;
+        left: 1rem;
+    }
+
+    #mobile-nav-open {
+        display: none;
+        width: 10%;
+
+        position: relative;
+        bottom: 0.5rem;
+        left: 1rem;
+    }
+
+    .page-title {
+        display: inline-block;
+        width: 80%;
+    }
+}
