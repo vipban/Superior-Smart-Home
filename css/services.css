@@ -29,42 +29,20 @@
 .service {
     margin: 2rem 5%;
 
-    height: 40rem;
-
     background-size: 100% 100%;
 
     border: .5rem solid goldenrod;
 }
 
 .service-text-odd {
-    position: relative;
-    top: 15%;
-    float: right;
-    right: 5%;
-
-    width: 20rem;
-    height: 70%;
-
     background-color: #17309def;
     border-radius: .5rem;
     text-align: center;
 }
 .service-text-even {
-    position: relative;
-    top: 15%;
-    float: left;
-    left: 5%;
-
-    width: 20rem;
-    height: 70%;
-
     background-color: #17309def;
     border-radius: .5rem;
     text-align: center;
-}
-
-.service h3 {
-    padding-top: 7.5%;
 }
 
 .service h3::after {
@@ -80,30 +58,79 @@
 }
 
 /* Background Images */
-#speakers {
-    background-image: url("../Resources/placeholder.jpg");
-}
+@media only screen and (min-width: 768px) {
+    .service {
+        height: 40rem;
+    }
 
-#doorbells {
-    background-image: url("../Resources/placeholder.jpg");
-}
+    .service-text-odd {
+        position: relative;
+        top: 15%;
+        float: right;
+        right: 5%;
 
-#locks {
-    background-image: url("../Resources/placeholder.jpg");
-}
+        width: 20rem;
+        height: 70%;
+    }
 
-#garages {
-    background-image: url("../Resources/placeholder.jpg");
-}
+    .service-text-even {
+        position: relative;
+        top: 15%;
+        float: left;
+        left: 5%;
 
-#irrigation {
-    background-image: url("../Resources/placeholder.jpg");
-}
+        width: 20rem;
+        height: 70%;
+    }
 
-#security {
-    background-image: url("../Resources/placeholder.jpg");
-}
+    .service h3 {
+        padding-top: 7.5%;
+    }
 
-#voice-assistants {
-    background-image: url("../Resources/placeholder.jpg");
+    #speakers {
+        background-image: url("../Resources/placeholder.jpg");
+    }
+
+    #doorbells {
+        background-image: url("../Resources/placeholder.jpg");
+    }
+
+    #locks {
+        background-image: url("../Resources/placeholder.jpg");
+    }
+
+    #garages {
+        background-image: url("../Resources/placeholder.jpg");
+    }
+
+    #irrigation {
+        background-image: url("../Resources/placeholder.jpg");
+    }
+
+    #security {
+        background-image: url("../Resources/placeholder.jpg");
+    }
+
+    #voice-assistants {
+        background-image: url("../Resources/placeholder.jpg");
+    }
+}
+/* Mobile Design */
+@media only screen and (max-width: 768px) {
+    .service {
+        border: none;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .service-text-odd {
+        height: auto;
+        padding-bottom: 2.5%;
+    }
+
+    .service-text-even {
+        height: auto;
+        padding-bottom: 2.5%;
+    }
 }
